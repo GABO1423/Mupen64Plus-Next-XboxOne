@@ -1,1 +1,1 @@
-Place the folders from the ANGLE Library.7z file here.
+Unzip the contents of the ANGLE Library.7z file here.
