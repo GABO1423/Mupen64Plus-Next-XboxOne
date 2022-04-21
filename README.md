@@ -12,3 +12,27 @@ The main changes made to the core are the following:
 
 Besides the changes listed above, nothing else was changed from the Mupen64Plus-Next source code.
 Since ANGLE can be kind of a performance bottleneck, I do not recommend using this core outside of the intended use case of Xbox systems with RetroArch installed.
+
+# Build Instructions
+
+**Prequisites**:
+
+- [MSYS2](https://www.msys2.org/) with the [mingw-w64-x86_64-toolchain](https://packages.msys2.org/group/mingw-w64-x86_64-toolchain) packages installed.
+- **Optional**: Either [Git for Windows](https://gitforwindows.org/) of the [Git](https://packages.msys2.org/package/git) package for MSYS2.
+
+**Step 1: Getting the source code**
+
+You can either use the command `git clone https://github.com/GABO1423/Mupen64Plus-Next-XboxOne.git` with a command prompt, or download the source code as a zip file directly from GitHub:
+![image](https://user-images.githubusercontent.com/35014183/164373033-25607e57-24c5-4987-91bc-3e43c7f02387.png)
+
+**Step 2: Setting up the build**
+
+Once the source code is downloaded, go into the ANGLE directory and unzip the ANGLE Library.7z file. You should end up with two folders: `lib` and `include`.
+Next, open MSYS2 (make sure you open the MINGW 64-bit variant).
+![image](https://user-images.githubusercontent.com/35014183/164373294-7e12f238-b013-40df-b686-1ef24c541d9d.png)
+
+Then use the `cd` command to navigate to where the code is located.
+
+**Step 3: Begin the build**
+
+Simply type `make` on MSYS2, press Enter, and watch it build! You should end up with a file called "mupen64plus_next_libretro.dll" if everything goes correctly.
