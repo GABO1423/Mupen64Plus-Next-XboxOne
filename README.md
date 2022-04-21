@@ -23,12 +23,14 @@ Since ANGLE can be kind of a performance bottleneck, I do not recommend using th
 **Step 1: Getting the source code**
 
 You can either use the command `git clone https://github.com/GABO1423/Mupen64Plus-Next-XboxOne.git` with a command prompt, or download the source code as a zip file directly from GitHub:
+
 ![image](https://user-images.githubusercontent.com/35014183/164373033-25607e57-24c5-4987-91bc-3e43c7f02387.png)
 
 **Step 2: Setting up the build**
 
 Once the source code is downloaded, go into the ANGLE directory and unzip the ANGLE Library.7z file. You should end up with two folders: `lib` and `include`.
 Next, open MSYS2 (make sure you open the MINGW 64-bit variant).
+
 ![image](https://user-images.githubusercontent.com/35014183/164373294-7e12f238-b013-40df-b686-1ef24c541d9d.png)
 
 Then use the `cd` command to navigate to where the code is located.
