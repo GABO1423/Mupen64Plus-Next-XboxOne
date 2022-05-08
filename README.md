@@ -13,6 +13,8 @@ The main changes made to the core are the following:
 Besides the changes listed above, nothing else was changed from the Mupen64Plus-Next source code.
 Since ANGLE can be kind of a performance bottleneck, I do not recommend using this core outside of the intended use case of Xbox systems with RetroArch installed.
 
+**Click [here](https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/blob/master/README-original.md) to read the original Mupen64Plus-Next README file.**
+
 # Build Instructions
 
 **Prequisites**:
