@@ -1204,8 +1204,8 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         CORE_NAME "-angrylion-sync",
         "Thread sync level",
         NULL,
-        "(AL) Select Sync level (Higher values trade accuracy for performance).",
-        "Select Sync level (Higher values trade accuracy for performance).",
+        "(AL) Select Sync level (Lower values trade accuracy for performance).",
+        "Select Sync level (Lower values trade accuracy for performance).",
         "angrylion",
         {
             {"Low", NULL},
