@@ -56,8 +56,8 @@ struct retro_core_option_v2_category option_cats_us[] = {
 #ifdef HAVE_THR_AL
    {
       "angrylion",
-      "Angrylion",
-      "Configure Angrylion Options."
+      "AngryLion",
+      "Configure AngryLion Options."
    },
 #endif // HAVE_THR_AL
    { NULL, NULL, NULL },
@@ -73,7 +73,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         NULL,
         {
 #ifdef HAVE_THR_AL
-            {"angrylion", "Angrylion"},
+            {"angrylion", "AngryLion"},
 #endif
 #ifdef HAVE_PARALLEL_RDP
             {"parallel", "ParaLLEl-RDP"},
@@ -1204,8 +1204,8 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         CORE_NAME "-angrylion-sync",
         "Thread sync level",
         NULL,
-        "(AL) Select Sync level (trades accuracy for performance).",
-        "Select Sync level (trades accuracy for performance).",
+        "(AL) Select Sync level (Higher values trade accuracy for performance).",
+        "Select Sync level (Higher values trade accuracy for performance).",
         "angrylion",
         {
             {"Low", NULL},
@@ -1219,11 +1219,11 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         CORE_NAME "-angrylion-multithread",
         "Multi-threading",
         NULL,
-        "(AL) Default 'all threads' is prefered to have it match your Physical CPU Core count. '1' should behave as the original angrylion, possibly fixing some bugs.",
-        "Default 'all threads' is prefered to have it match your Physical CPU Core count. '1' should behave as the original angrylion, possibly fixing some bugs.",
+        "(AL) Default 'All Threads' is prefered to have it match your Physical CPU Core count. '1' should behave as the original AngryLion, possibly fixing some bugs.",
+        "Default 'All Threads' is prefered to have it match your Physical CPU Core count. '1' should behave as the original AngryLion, possibly fixing some bugs.",
         "angrylion",
         {
-            {"all threads", NULL},
+            {"All Threads", NULL},
             {"1", NULL},
             {"2", NULL},
             {"3", NULL},
@@ -1290,21 +1290,21 @@ struct retro_core_option_v2_definition option_defs_us[] = {
             {"75", NULL},
             { NULL, NULL },
         },
-        "all threads"
+        "All Threads"
     },
     {
         CORE_NAME "-angrylion-overscan",
-        "Hide overscan",
+        "Hide Overscan",
         NULL,
         "(AL) Hide overscan borders.",
         "Hide overscan borders.",
         "angrylion",
         {
-            {"disabled", NULL},
-            {"enabled", NULL},
+            {"Disabled", NULL},
+            {"Enabled", NULL},
             { NULL, NULL },
         },
-        "disabled"
+        "Disabled"
     },
 #endif
     {
