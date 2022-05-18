@@ -68,7 +68,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         CORE_NAME "-rdp-plugin",
         "RDP Plugin",
         NULL,
-        "Select a RDP Plugin, use Angrylion (if available) for best compability, GLideN64 for Performance",
+        "Select a RDP Plugin, use AngryLion (if available) for best compability, GLideN64 for Performance",
         NULL,
         NULL,
         {
