@@ -1,3 +1,3 @@
 Unzip the contents of the ANGLE Library.7z file here.
 
-Updated to match this [commit](https://github.com/google/angle/commit/cd4cce3f882b9ae10a2bd80537d70a9f2533c68d).
+Updated to match this [commit](https://github.com/google/angle/commit/d3eb61d4a054ad060a27480219450e3d1caed1fc).
