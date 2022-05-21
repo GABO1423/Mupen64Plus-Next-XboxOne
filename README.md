@@ -13,6 +13,8 @@ The main changes made to the core are the following:
 Besides the changes listed above, nothing else was changed from the Mupen64Plus-Next source code.
 Since ANGLE can be kind of a performance bottleneck, I do not recommend using this core outside of the intended use case of Xbox Series consoles with RetroArch installed.
 
+You can download a pre-compiled core from the [Pre-Compiled Builds](https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/tree/Series-Consoles/Pre-Compiled%20Builds) directory.
+
 **NOTE: USING GLIDEN64 WITH THIS CORE WILL NOT WORK ON XBOX ONE SYSTEMS! YOU WILL BE GREETED BY A BLACK SCREEN WITH AUDIO. If you have an Xbox One system, use the [master](https://github.com/GABO1423/Mupen64Plus-Next-XboxOne) branch instead.**
 
 **Click [here](https://github.com/GABO1423/Mupen64Plus-Next-XboxOne/blob/master/README-original.md) to read the original Mupen64Plus-Next README file.**
