@@ -26,7 +26,7 @@ Since ANGLE can be kind of a performance bottleneck, I do not recommend using th
 
 **Step 1: Getting the source code**
 
-You can either use the command `git clone https://github.com/GABO1423/Mupen64Plus-Next-XboxOne.git` with a command prompt, or download the source code as a zip file directly from GitHub:
+You can either use the command `git clone -b Series-Consoles https://github.com/GABO1423/Mupen64Plus-Next-XboxOne.git` with a command prompt, or download the source code as a zip file directly from GitHub:
 
 ![image](https://user-images.githubusercontent.com/35014183/164373033-25607e57-24c5-4987-91bc-3e43c7f02387.png)
 
