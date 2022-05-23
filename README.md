@@ -1,5 +1,5 @@
 # Mupen64Plus-Next-XboxOne
-This is a modified version of the [Mupen64Plus-Next](https://github.com/libretro/mupen64plus-libretro-nx) libretro core that is primarily intended for use with Xbox One and Series consoles. All credit goes to [m4xw](https://github.com/m4xw) for the core, as well as the [ANGLE](https://github.com/google/angle) implementation.
+This is a modified version of the [Mupen64Plus-Next](https://github.com/libretro/mupen64plus-libretro-nx) libretro core that is primarily intended for use with Xbox One and Series consoles. All credit goes to [m4xw](https://github.com/m4xw) for the core, as well as the [ANGLE](https://github.com/google/angle) implementation, and [tunip3](https://github.com/tunip3) for the custom [ANGLE](https://github.com/Xbox-Homebrew/angle) version used in this core.
 
 The main changes made to the core are the following:
 
