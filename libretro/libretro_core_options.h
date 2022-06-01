@@ -1652,13 +1652,13 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         NULL,
         "input",
         {
-            {"None", NULL},
-            {"Memory", NULL},
-            {"Rumble", NULL},
-            {"Transfer", NULL},
+            {"none", NULL},
+            {"memory", NULL},
+            {"rumble", NULL},
+            {"transfer", NULL},
             { NULL, NULL },
         },
-        "Memory"
+        "memory"
     },
     {
         CORE_NAME "-pak2",
@@ -1668,13 +1668,13 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         NULL,
         "input",
         {
-            {"None", NULL},
-            {"Memory", NULL},
-            {"Rumble", NULL},
-            {"Transfer", NULL},
+            {"none", NULL},
+            {"memory", NULL},
+            {"rumble", NULL},
+            {"transfer", NULL},
             { NULL, NULL },
         },
-        "None"
+        "none"
     },
     {
         CORE_NAME "-pak3",
@@ -1684,13 +1684,13 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         NULL,
         "input",
         {
-            {"None", NULL},
-            {"Memory", NULL},
-            {"Rumble", NULL},
-            {"Transfer", NULL},
+            {"none", NULL},
+            {"memory", NULL},
+            {"rumble", NULL},
+            {"transfer", NULL},
             { NULL, NULL },
         },
-        "None"
+        "none"
     },
     {
         CORE_NAME "-pak4",
@@ -1700,13 +1700,13 @@ struct retro_core_option_v2_definition option_defs_us[] = {
         NULL,
         "input",
         {
-            {"None", NULL},
-            {"Memory", NULL},
-            {"Rumble", NULL},
-            {"Transfer", NULL},
+            {"none", NULL},
+            {"memory", NULL},
+            {"rumble", NULL},
+            {"transfer", NULL},
             { NULL, NULL },
         },
-        "None"
+        "none"
     },
     { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
 };
