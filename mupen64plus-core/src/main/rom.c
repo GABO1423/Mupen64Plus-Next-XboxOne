@@ -438,7 +438,7 @@ void romdatabase_open(void)
     #ifdef HAVE_ANGLE
         while (lines != NULL)
     #else
-        for (lineno = 1; fgets(buffer, 255,fptr) != NULL; lineno++)
+        for (lineno = 1; fgets(buffer, 255, fPtr) != NULL; lineno++)
     #endif
     {
         #ifdef HAVE_ANGLE
