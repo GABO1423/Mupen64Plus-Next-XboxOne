@@ -81,7 +81,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
             {"gliden64", "GLideN64"},
             { NULL, NULL },
         },
-        "gliden64"
+        "angrylion"
     },
     {
         CORE_NAME "-43screensize",
