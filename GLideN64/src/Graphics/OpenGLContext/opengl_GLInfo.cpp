@@ -39,13 +39,14 @@ void GLInfo::init() {
 		glGetIntegerv(GL_MINOR_VERSION, &minorVersion);
 	}
 
-/*
+#ifndef HAVE_ANGLE
 #if defined(HAVE_OPENGLES2) // Overwrite
 	isGLES2 = true;
 	majorVersion = 2;
 	minorVersion = 0;
 #endif
-*/
+#endif
+
 	LOG(LOG_VERBOSE, "%s major version: %d", isGLESX ? "OpenGL ES" : "OpenGL", majorVersion);
 	LOG(LOG_VERBOSE, "%s minor version: %d", isGLESX ? "OpenGL ES" : "OpenGL", minorVersion);
 
