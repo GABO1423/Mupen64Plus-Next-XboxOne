@@ -395,7 +395,7 @@ namespace opengl {
 			ptrDrawElements(mode, count, type, indices);
 			return;
 		}
-		
+
 		int typeSizeBytes;
 		unsigned int maxElementIndex;
 
@@ -1391,6 +1391,14 @@ namespace opengl {
 			ptrFinish();
 	}
 
+	void FunctionWrapper::wrFlush()
+	{
+		if (m_threaded_wrapper)
+			executeCommand(GlFlushCommand::get());
+		else
+			ptrFlush();
+	}
+
 	void FunctionWrapper::wrCopyTexImage2D(GLenum target, GLint level, GLenum internalformat, GLint x, GLint y, GLsizei width, GLsizei height, GLint border)
 	{
 		if (m_threaded_wrapper)
@@ -1462,7 +1470,7 @@ namespace opengl {
 		if (m_threaded_wrapper) {
 			executeCommand(CoreVideoQuitCommand::get());
 			executeCommand(ShutdownCommand::get());
-		} 
+		}
 		else
 			CoreVideoQuitCommand::get()->performCommandSingleThreaded();
 
