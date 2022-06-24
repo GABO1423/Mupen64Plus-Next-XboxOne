@@ -509,6 +509,10 @@ else
    
    NM = $(CC)-nm
 
+   ifeq ($(HAVE_ANGLE),0)
+   	HAVE_PARALLEL_RDP = 0
+   endif
+
    HAVE_PARALLEL_RSP = 1
    HAVE_THR_AL = 1
    LLE = 1
