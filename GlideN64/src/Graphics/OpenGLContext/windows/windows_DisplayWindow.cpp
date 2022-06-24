@@ -8,7 +8,6 @@
 #include <Graphics/Context.h>
 #include <Graphics/Parameters.h>
 #include <DisplayWindow.h>
-#include <windows/ScreenShot.h>
 #include <Graphics/OpenGLContext/ThreadedOpenGl/opengl_Wrapper.h>
 
 using namespace opengl;
@@ -119,7 +118,7 @@ void DisplayWindowWindows::_changeWindow()
 		fullscreenMode.dmFields = DM_BITSPERPEL | DM_PELSWIDTH | DM_PELSHEIGHT | DM_DISPLAYFREQUENCY;
 
 		if (ChangeDisplaySettings( &fullscreenMode, CDS_FULLSCREEN ) != DISP_CHANGE_SUCCESSFUL) {
-			MessageBoxW( NULL, L"Failed to change display mode", pluginNameW, MB_ICONERROR | MB_OK );
+			MessageBox( NULL, L"Failed to change display mode", pluginNameW, MB_ICONERROR | MB_OK );
 			return;
 		}
 
@@ -167,8 +166,6 @@ bool DisplayWindowWindows::_resizeWindow()
 {
 	RECT windowRect, statusRect, toolRect;
 
-	windowRect = statusRect = toolRect = { 0 };
-
 	if (m_bFullscreen) {
 		m_screenWidth = config.video.fullscreenWidth;
 		m_screenHeight = config.video.fullscreenHeight;
@@ -182,12 +179,12 @@ bool DisplayWindowWindows::_resizeWindow()
 		_setBufferSize();
 
 		GetClientRect( hWnd, &windowRect );
-
-		if (hStatusBar)
-			GetWindowRect( hStatusBar, &statusRect );
+		GetWindowRect( hStatusBar, &statusRect );
 
 		if (hToolBar)
 			GetWindowRect( hToolBar, &toolRect );
+		else
+			toolRect.bottom = toolRect.top = 0;
 
 		m_heightOffset = (statusRect.bottom - statusRect.top);
 		windowRect.right = windowRect.left + config.video.windowedWidth - 1;
