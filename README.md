@@ -22,7 +22,7 @@ Since ANGLE can be kind of a performance bottleneck, I do not recommend using th
 
 **Prequisites**:
 
-- [MSYS2](https://www.msys2.org/) with the [mingw-w64-x86_64-toolchain](https://packages.msys2.org/group/mingw-w64-x86_64-toolchain) packages installed.
+- [MSYS2](https://www.msys2.org/) with the [mingw-w64-x86_64-toolchain](https://packages.msys2.org/group/mingw-w64-x86_64-toolchain), and [nasm](https://packages.msys2.org/package/mingw-w64-x86_64-nasm) packages installed.
 - **Optional**: Either [Git for Windows](https://gitforwindows.org/) or the [Git](https://packages.msys2.org/package/git) package for MSYS2.
 
 **Step 1: Getting the source code**
