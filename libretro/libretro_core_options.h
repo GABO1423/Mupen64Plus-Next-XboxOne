@@ -1339,7 +1339,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
             {"75", NULL},
             { NULL, NULL },
         },
-        "All Threads"
+        "6"
     },
     {
         CORE_NAME "-angrylion-overscan",
